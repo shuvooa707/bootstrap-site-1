@@ -486,3 +486,40 @@ body {
     background: linear-gradient(to right, #131f9f, #2576fdc7)!important;
     color: white!important;
 }
+
+.sec-3 .sec-3-product-card {
+    /* max-width: 350px; */
+    min-height: 300px;
+    background-size: 100% 100%!important;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #dddddd;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.sec-3 .sec-3-product-card-overlay {
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+    border: 10px solid rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.75);
+    opacity: 0;
+    position: relative;
+    transition: all .4s;
+}
+
+.sec-3 .sec-3-product-card:hover .sec-3-product-card-overlay {
+    opacity: 1;
+}
+
+.sec-3 .our-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    text-align: center;
+    line-height: 46px;
+    padding: 0px;
+}
