@@ -331,8 +331,26 @@ body {
     border-right: 66vw solid white;
     border-bottom: 5vw solid transparent;
 }
+.sec-6 .card {
+    width: 300px;
+    min-height: 260px;
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    float: left;
+    margin: 10px 20px;
+}
 
-
+.sec-6 .heading {
+    display: block;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 20px;
+    background: url("../img/qm.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 90px;
+}
 .sec-4 {
     background: #f2f2f2;
 }
@@ -428,4 +446,43 @@ body {
 .sec-4 .content .item .cont {
     /* float: left; */
     height: 80px;
+}
+
+
+.sec-3 .isotope-navbar {
+    width: 100%;
+    margin: 50px 0px;
+}
+.sec-3 .isotope-nav-container{
+    width: 364px;
+    height: 45px;
+    padding: 7px 0px 10px 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 0px auto;
+    border-radius: 50px;
+}
+
+.sec-3 .isotope-nav-container .isotope-nav-item {
+    display: inline-block;
+    /* width: 59px; */
+    /* height: 25px; */
+    border-radius: 30px;
+    /* line-height: 25px; */
+    padding: 5px 15px;
+    margin-right: 11px;
+    text-align: center;
+    background: linear-gradient(to right, #ffffff, #eeeeee);
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 1s;
+}
+.sec-3 .isotope-nav-container .isotope-nav-item:hover {
+    background: linear-gradient(to right, #eeeeee, #ffffff);
+}
+
+.isotope-nav-item-active {
+    background: linear-gradient(to right, #131f9f, #2576fdc7)!important;
+    color: white!important;
 }
